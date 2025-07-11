@@ -1,4 +1,4 @@
-import { Header } from "./header";
+import { Header } from "./Header";
 import { Section } from "./Section";
 import { Home } from "./Home";
 import { Experience } from "./Experience";
