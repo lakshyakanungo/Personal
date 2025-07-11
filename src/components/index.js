@@ -2,7 +2,7 @@ import { Header } from "./Header";
 import { Section } from "./Section";
 import { Home } from "./Home";
 import { Experience } from "./Experience";
-import { AboutMe } from "./AboutME";
+import { AboutMe } from "./AboutMe";
 import { SkillsAndEducation } from "./SkillsAndEducation";
 import { Projects } from "./Projects";
 import { LifeStuff } from "./LifeStuff";
