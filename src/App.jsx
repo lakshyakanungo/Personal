@@ -9,7 +9,6 @@ import {
   LifeStuff,
   Contact
 } from "./components";
-import { portfolioData } from "./constants";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -72,14 +71,6 @@ export default function App() {
         <LifeStuff />
         <Contact />
       </main>
-      <footer className="bg-gray-100 mt-16">
-        <div className="container mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-gray-600">
-          <p>
-            &copy; {new Date().getFullYear()} {portfolioData.name}. All Rights
-            Reserved.
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }

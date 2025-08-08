@@ -62,7 +62,9 @@ export const portfolioData = {
         "Add redirections from old to new URLs."
       ],
       techStack: ["Ruby on Rails", "React.js", "PostgreSQL"],
-      links: {}
+      links: {
+        github: "https://github.com/lakshyakanungo/content-management-platform"
+      }
     },
     {
       name: "MovieDekho",
